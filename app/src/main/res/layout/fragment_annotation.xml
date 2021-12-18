@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.nenpsoft.snipit.annotation.AnnotationImageView
+                android:id="@+id/annotation_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?colorPrimarySurface"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <WebView
+                android:id="@+id/splash_screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?colorPrimary"></WebView>
+        </FrameLayout>
+
+        <include
+            android:id="@+id/buttons"
+            layout="@layout/annotation_actions_menu" />
+    </LinearLayout>
+</layout>

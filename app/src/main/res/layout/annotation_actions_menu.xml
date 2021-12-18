@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/annotation_actions_menu"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?colorSecondary"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/gallery_button"
+            style="@style/annotation_image_button"
+            app:srcCompat="@drawable/ic_shape_folder" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/add_button"
+            style="@style/annotation_image_button"
+            app:srcCompat="@drawable/ic_shape_add" />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            style="@style/annotation_image_button"
+            app:srcCompat="@drawable/ic_shape_delete" />
+
+        <ImageButton
+            android:id="@+id/input_button"
+            style="@style/annotation_image_button"
+            app:srcCompat="@drawable/ic_shape_keyboard" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/color_button"
+            style="@style/annotation_image_button"
+            app:srcCompat="@drawable/ic_shape_color" />
+
+        <ImageButton
+            android:id="@+id/crop_button"
+            style="@style/annotation_image_button"
+            app:srcCompat="@drawable/ic_shape_crop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/share_button"
+            style="@style/annotation_image_button"
+            app:srcCompat="@drawable/ic_shape_share" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</layout>

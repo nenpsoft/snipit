@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:expandedHintEnabled="false"
+        app:hintAnimationEnabled="false"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:hint="hint"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textCursorDrawable="@drawable/color_cursor" />
+    </com.google.android.material.textfield.TextInputLayout>
+</layout>

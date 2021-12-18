@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="annotation_image_button" parent="Widget.AppCompat.ImageButton">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:tint">@drawable/button_state_selector</item>
+    </style>
+
+    <style name="color_list_image_button" parent="Widget.AppCompat.ImageButton">
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_width">?attr/actionBarSize</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/ic_shape_filled_circle</item>
+    </style>
+</resources>

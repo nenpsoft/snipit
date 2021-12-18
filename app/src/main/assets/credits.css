@@ -1,0 +1,17 @@
+html,body{
+  padding: 5px;
+  font-size: 12px;
+  font-family:  sans-serif;
+}
+
+div.t {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: dimgray;
+  text-transform: capitalize;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSecondary"
+        android:orientation="horizontal">
+
+        <GridLayout
+            android:id="@+id/color_list_grid_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:columnCount="4"
+            android:rowCount="2">
+
+            <ImageButton style="@style/color_list_image_button" />
+
+            <ImageButton style="@style/color_list_image_button" />
+
+            <ImageButton style="@style/color_list_image_button" />
+
+            <ImageButton style="@style/color_list_image_button" />
+
+            <ImageButton style="@style/color_list_image_button" />
+
+            <ImageButton style="@style/color_list_image_button" />
+
+            <ImageButton style="@style/color_list_image_button" />
+
+            <ImageButton style="@style/color_list_image_button" />
+        </GridLayout>
+
+        <ImageView
+            android:id="@+id/color_list_image_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_shape_circle" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

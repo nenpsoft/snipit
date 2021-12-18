@@ -1,0 +1,14 @@
+html,body{
+  padding: 5px;
+  font-size: 12px;
+  font-family:  sans-serif;
+}
+
+a {
+  color: dimgray;
+  text-transform: capitalize;
+}
+
+img {
+    padding-top: 10px;
+}
